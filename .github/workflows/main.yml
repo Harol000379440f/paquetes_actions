@@ -12,7 +12,5 @@ jobs:
             
       - name: ls
         run: |
-          chmod +x 
-          cd ~
-          ./script.sh
+          chmod +x /script.sh
 
