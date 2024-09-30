@@ -13,7 +13,8 @@ jobs:
       - name: ls
         run: |
           ls -la
-          cd 
+          cd ./.github/workflows
+          ls -la
           chmod +x /script.sh
           ./script.sh
 
