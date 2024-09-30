@@ -12,5 +12,6 @@ jobs:
             
       - name: ls
         run: |
+          pwd
           chmod +x script.sh
 
