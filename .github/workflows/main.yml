@@ -21,4 +21,6 @@ jobs:
           
       - name: reutilizar_actions
         uses: ./.github/workflows/actions/my-actions
+              chmod +x action.yml
+              ./action.yml
 
