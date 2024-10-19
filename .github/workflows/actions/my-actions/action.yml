@@ -1,0 +1,9 @@
+name: "My-action"
+description: "test my action"
+
+runs:
+  using: "composite" #Permiten agrupar pasos comunes, por ejemplo los steps
+
+  steps:
+    - name: Hola Mundo
+        run: echo "Hola Mundo"
