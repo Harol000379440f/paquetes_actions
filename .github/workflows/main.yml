@@ -20,4 +20,4 @@ jobs:
 
           
       - name: ls
-        uses: ./.github/workflows/actions/my-action
+        uses: ./.github/workflows/actions/action
