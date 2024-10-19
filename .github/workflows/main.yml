@@ -19,5 +19,5 @@ jobs:
           ./script.sh
 
           
-#      - name: ls
-#        uses: ./.github/workflows/actions/my-actions/action.yml
+      - name: reutilizar_actions
+        uses: ./.github/workflows
