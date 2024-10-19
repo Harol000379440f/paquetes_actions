@@ -20,5 +20,5 @@ jobs:
 
           
       - name: reutilizar_actions
-        uses: ./.github/workflows/actions/my-action/action.yml
+        uses: ./.github/workflows/actions/my-actions
 
