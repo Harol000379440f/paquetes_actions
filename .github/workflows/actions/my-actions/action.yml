@@ -14,5 +14,5 @@ runs:
   steps:
     - name: Hola Mundo
       #run: echo "Hola Mundo"
-      run: echo "Hola $(( inputs.message))"
+      run: echo "Hola ${{inputs.message}}"
       shell: bash
