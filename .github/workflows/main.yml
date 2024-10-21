@@ -21,3 +21,6 @@ jobs:
           
       - name: reutilizar_actions
         uses: ./.github/workflows/actions/my-actions
+        with:  #Se usa lara poder pasarle parametros a dichas actions
+          message: "Harol"
+          
