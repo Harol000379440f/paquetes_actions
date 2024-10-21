@@ -7,8 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     
 #vamos a definir un servicio, en este caso con mysql 
-  say-hello:
-    runs-on: ubuntu-latest
+  #say-hello:
+    #runs-on: ubuntu-latest
 
     services: #directiva de servicio
       mysql: 
