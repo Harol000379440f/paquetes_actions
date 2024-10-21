@@ -5,6 +5,23 @@ on: [push]
 jobs:
   test-build:
     runs-on: ubuntu-latest
+    
+#vamos a definir un servicio, en este caso con mysql 
+  say-hello:
+    runs-on: ubuntu-latest
+
+    services: #directiva de servicio
+      mysql: 
+        image: mysql:5.7
+        env:
+          MYSQL_ROOT_PASSWORD: example
+        ports:
+          - 3306:3306
+      redis:
+        image: redis
+        ports:
+          - 6379:6379    
+
 
     steps:
       - name: Checkout
