@@ -6,8 +6,8 @@ jobs:
   test-build:
     runs-on: ubuntu-latest
     
-#vamos a definir un servicio, en este caso con mysql 
-  #say-hello:
+    #vamos a definir un servicio, en este caso con mysql 
+    #say-hello:
     #runs-on: ubuntu-latest
     # "
     # services: #directiva de servicio
@@ -23,8 +23,8 @@ jobs:
     #       - 6379:6379    
     # "
     #Definir variables de entorno. 
-      env:
-        MY_VAR: Mi varible de entorno        
+    env:
+      MY_VAR: Mi varible de entorno        
 
     steps:
       - name: Checkout
