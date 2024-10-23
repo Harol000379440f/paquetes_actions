@@ -26,9 +26,9 @@ jobs:
     env:
       MY_VAR: Mi varible de entorno        
 
-    steps:
+    steps: #Un step no puede usr uses y run al mismo tiempo
       - name: Checkout
-        uses: actions/checkout@v4.2.0
+        #uses: actions/checkout@v4.2.0
         run: echo "valor $MY-VAR"
             
       - name: ls
