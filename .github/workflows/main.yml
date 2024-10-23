@@ -28,8 +28,8 @@ jobs:
 
     steps: #Un step no puede usr uses y run al mismo tiempo
       - name: Checkout
-        #uses: actions/checkout@v4.2.0
-        run: echo "valor $MY-VAR"
+        uses: actions/checkout@v4.2.0
+        
             
       - name: ls
         run: | #Operador pai
@@ -45,6 +45,7 @@ jobs:
         with:  #Se usa lara poder pasarle parametros a dichas actions
           message: "Harol"
     
-
+      - name: Varibles de entorno Jobs.
+        run: echo "valor $MY-VAR"
 
             
