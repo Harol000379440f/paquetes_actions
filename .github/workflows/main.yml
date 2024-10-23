@@ -9,7 +9,7 @@ jobs:
 #vamos a definir un servicio, en este caso con mysql 
   #say-hello:
     #runs-on: ubuntu-latest
-
+    "
     services: #directiva de servicio
       mysql: 
         image: mysql:5.7
@@ -21,7 +21,10 @@ jobs:
         image: redis
         ports:
           - 6379:6379    
-
+    "
+    #Definir variables de entorno. 
+    env:
+      MY_VAR: Mi varible de entorno        
 
     steps:
       - name: Checkout
@@ -40,4 +43,8 @@ jobs:
         uses: ./.github/workflows/actions/my-actions
         with:  #Se usa lara poder pasarle parametros a dichas actions
           message: "Harol"
-          
+    
+    steps:
+      - name: Testing
+      - run: echo "valor: $MY-VAR"
+            
