@@ -46,7 +46,7 @@ jobs:
           message: "Harol"
     
       - name: Varibles_de_entorno_Jobs
-        run: echo "valor.$MY_VAR"
+        run: echo "valor $MY_VAR"
         
 
             
