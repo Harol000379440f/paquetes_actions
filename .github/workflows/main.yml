@@ -46,10 +46,10 @@ jobs:
           message: "Harol"
     
       - name: Varibles_de_entorno_Jobs
-        #run: echo "valor $MY_VAR"
-        env:
-          STEP_MY_VAR: nivel step
-        run: echo "valor $STEP_MY_VAR"
+        #run: echo "valor $MY_VAR" #A nivel de JOBs
+        # env:              # A nivel de Steps
+        #   STEP_MY_VAR: nivel step             
+        run: echo "valor ${{ vars.MY_VARIABLE_2 }} " #A nivel de respositorio
 
 
             
