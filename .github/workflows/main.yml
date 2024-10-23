@@ -46,7 +46,10 @@ jobs:
           message: "Harol"
     
       - name: Varibles_de_entorno_Jobs
-        run: echo "valor $MY_VAR"
-        
+        #run: echo "valor $MY_VAR"
+        env:
+          STEP_MY_VR: nivel step
+        run: echo "valor $STEP_MY_VAR"
+          
 
             
