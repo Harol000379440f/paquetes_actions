@@ -45,7 +45,8 @@ jobs:
         with:  #Se usa lara poder pasarle parametros a dichas actions
           message: "Harol"
     
-      - name: Varibles de entorno Jobs.
-        run: echo "valor: $MY-VAR"
+      - name: Varibles_de_entorno_Jobs
+        run: echo "valor.$MY_VAR"
+        
 
             
