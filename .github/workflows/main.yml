@@ -23,8 +23,8 @@ jobs:
     #       - 6379:6379    
     # "
     #Definir variables de entorno. 
-    env:
-      MY_VAR: Mi varible de entorno        
+      env:
+        MY_VAR: Mi varible de entorno        
 
     steps:
       - name: Checkout
