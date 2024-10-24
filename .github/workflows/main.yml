@@ -51,5 +51,7 @@ jobs:
         #   STEP_MY_VAR: nivel step             
         run: echo "valor ${{ vars.MY_VARIABLE_2 }} " #A nivel de respositorio
 
+      - name: Secrets
+        run: echo "Secret ${{ secrets.MY_SECRET }}"
 
             
