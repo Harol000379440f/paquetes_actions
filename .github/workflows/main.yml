@@ -30,7 +30,8 @@ jobs:
     steps: #Un step no puede usr uses y run al mismo tiempo
       - name: Checkout
         uses: actions/checkout@v4.2.0
-        
+
+      - name: ChupameLamonda  
             
       - name: ls
         run: | #Operador pai
