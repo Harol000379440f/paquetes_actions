@@ -1,4 +1,4 @@
-name: Test Composite Actions #nombre dek workflow
+name: Test Composite Actions #nombre del workflow
 
 
 on: [push]
@@ -31,7 +31,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.2.0
 
-      - name: ChupameLamonda  
+      - name: ChupameLamonda  #xd
             
       - name: ls
         run: | #Operador pai
