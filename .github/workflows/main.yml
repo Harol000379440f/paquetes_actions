@@ -31,7 +31,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.2.0
 
-      - name: ChupameLamonda  #xd
+      - name: ChupameLamonda  #xd-->DX
             
       - name: ls
         run: | #Operador pai
